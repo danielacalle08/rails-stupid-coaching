@@ -1,5 +1,8 @@
 class QuestionsController < ApplicationController
   def ask
-    @question
+  end
+
+  def answer
+    @second_user_story == params[:second_user_story]
   end
 end
